@@ -1,10 +1,11 @@
 // Using http://itcss.io/
 // files
 
-@import "settings/settings";
-@import "tools/tools";
-@import "generic/generic";
-@import "base/base";
-@import "components/components";
-@import "theme/theme";
-@import "trumps/trumps";
+@import "01_settings/settings";
+@import "02_tools/tools";
+@import "03_generic/generic";
+@import "04_base/base";
+@import "05_objects/objects";
+@import "06_components/components";
+@import "07_theme/theme";
+@import "08_trumps/trumps";
