@@ -4,9 +4,6 @@ options:
   formatter: stylish
   merge-default-rules: false
 rules:
-  bem-depth:
-    - 1
-    - max-depth: 2
   border-zero: 0
   brace-style:
     - 1
@@ -14,7 +11,7 @@ rules:
     - allow-single-line: false
   class-name-format:
     - 2
-    - convention: strictbem
+    # - convention: strictbem
   empty-line-between-blocks:
     - 1
     - include: true

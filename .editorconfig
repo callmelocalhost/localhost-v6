@@ -6,9 +6,11 @@ root = true
 
 
 [*]
+indent_size = 2
+indent_style = space
 
 # Change these settings to your own preference
-indent_style = tab
+indent_style = space
 
 # We recommend you to keep these unchanged
 end_of_line = lf
@@ -25,4 +27,4 @@ indent_size = 2
 
 [*.js]
 indent_style = space
-indent_size = 4
+indent_size = 2
