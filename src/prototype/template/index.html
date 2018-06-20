@@ -1,34 +1,51 @@
 {% extends 'layout/base.html' %} {% set pageTitle = 'Hello page title' %} {% block bodyContent %}
-
+<div class="nogrid">
+  This site uses CSS Grid. It seems your browsers doesn't support it.
+  Please consider installing a more <a href="https://www.mozilla.org/en-US/firefox/">recent browser</a>.
+</div>
 <div class="wrapper">
-  <div class="wrapper">
-    <div class="one">One</div>
-    <div class="two">Two</div>
-    <div class="three">Three</div>
-    <div class="four">Four</div>
-    <div class="five">Five</div>
-    <div class="six">Six</div>
-  </div>
+  <article>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sit amet neque metus. Aliquam erat volutpat.
+      Phasellus vitae porttitor magna. Mauris volutpat pellentesque consectetur. Donec vulputate libero quis scelerisque
+      sagittis. Nulla non erat nec nulla dignissim rhoncus. Nulla interdum faucibus nisi volutpat pretium. Suspendisse
+      molestie bibendum lacinia. In non feugiat ante. Nunc rhoncus varius ex et molestie. Quisque sed urna vel quam
+      dapibus mattis. Nam lacinia aliquam magna in viverra. Aliquam sit amet elit cursus sem tincidunt fringilla.
+    </p>
+    <p>
+      Donec vel malesuada tortor. Vestibulum ultricies tincidunt hendrerit. Phasellus fermentum a ex id luctus. Etiam
+      consectetur condimentum dui vel sagittis. Suspendisse eget purus mi. Vivamus vitae posuere libero, eget
+      consectetur ex. Pellentesque tempus lobortis nisl ornare ultricies. Mauris sit amet metus enim. Morbi non orci
+      odio. Morbi hendrerit nisl non tortor malesuada, in consequat augue dignissim. In et varius eros, at pretium enim.
+      Sed metus velit, lacinia tincidunt ligula ac, fermentum dignissim risus.
+    </p>
+    <p>
+      Sed bibendum mi non porttitor dapibus. Aenean et risus ac risus scelerisque mattis sed id elit. Fusce nec sem
+      ante. Donec vel gravida dui. In vitae placerat nibh. Duis eget eros turpis. Nulla id efficitur mi. Mauris mi leo,
+      cursus sed congue at, viverra nec tellus. Ut ac fermentum lacus.
+    </p>
+    <p>
+      Nulla tempus condimentum ipsum ut euismod. Quisque vitae ipsum elit. Donec lorem est, consectetur eget odio eget,
+      laoreet volutpat purus. Aliquam in erat eros. Cras orci augue, suscipit ut laoreet a, ornare in ex. Aenean
+      lobortis iaculis erat. Cras viverra sagittis turpis ac venenatis. Fusce et vestibulum libero.
+    </p>
+    <p>
+      Proin convallis ornare tellus non pharetra. Morbi mi dolor, pharetra et bibendum quis, venenatis nec lorem.
+      Vestibulum vel dolor vel nunc ultricies cursus. Curabitur dictum nulla et magna vestibulum, eu imperdiet augue
+      efficitur. Donec fermentum mauris ac pellentesque fermentum. Cras quis molestie augue. Donec at lobortis quam.
+      Praesent in tempor odio. Curabitur fringilla ante ipsum, et egestas est luctus ut. Duis et ullamcorper mi. Donec
+      et consequat tellus, at rhoncus sapien. Nullam iaculis non mauris ac suscipit. Mauris lacinia tellus mauris.
+    </p>
+  </article>
+  <aside>
+    <section class="persona">
+      <img src=""/>
+      <h1>Jarno de Wit</h1>
+      <div class="social">
+        twitter, github, linkedin
+      </div>
+    </section>
+  </aside>
 
-  <h1>JEPS</h1>
-
-  <p>
-    Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
-    Aut minus officiis perspiciatis? Asperiores corporis dolorum ipsum
-    molestias reprehenderit saepe ullam!
-  </p>
-  
-  <p>
-    Accusantium corporis deserunt distinctio dolor dolores ducimus, 
-    earum est fugit iure, minus mollitia numquam obcaecati officiis
-    optio quasi quibusdam veritatis?
-  </p>
-  
-  <p>
-    Consectetur delectus dicta dignissimos magni officiis, optio quia. 
-    Aliquam consectetur cumque explicabo id necessitatibus
-    nihil praesentium quidem sapiente sequi sit?
-  </p>
 </div>
 
 {% endblock %}
