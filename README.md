@@ -66,7 +66,7 @@ This means the css is ordered in:
 BEM is used for class naming. BEM stands for Block, element, modifier.
 
  * **Blocks** - are written in lowerCamelCase.
- * **Elements** - are seperated from the parent block with 1 underscore and are also written in lowerCamelCase.
+ * **Elements** - are seperated from the parent block with 2 underscore and are also written in lowerCamelCase.
  * **Modifiers** - are seperated from the block/element by 2 hyphen.
  * **States** - (active, current etc.) are written in lowercase, always prefixed with: '_is_'.
  
@@ -75,10 +75,10 @@ For extensive documentation, view the [BEM](https://en.bem.info/method/).
 Example:
 ```
 .mainHeader
-    .mainHeader_item
-    .mainHeader_item--highlighted
-    .mainHeader_item
-    .mainHeader_item._is_active
+    .mainHeader__item
+    .mainHeader__item--highlighted
+    .mainHeader__item
+    .mainHeader__item._is_active
 ```
 
 
